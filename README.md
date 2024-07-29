@@ -22,7 +22,7 @@ Ensure that you have the following:
 Run the script with root privileges:
 
 ```bash
-sudo ./script.sh
+sudo ./proaxiom-vms-linux.sh
 ```
 
 ## Functions
