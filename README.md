@@ -31,10 +31,10 @@ Displays the Proaxiom VMS logo.
 ### detect_os
 Detects the operating system and sets the OS variable accordingly.
 
-###check_package_manager
+### check_package_manager
 Determines the package manager based on the detected operating system.
 
-###check_and_install_packages
+### check_and_install_packages
 Checks for the presence of necessary packages and installs them if they are missing. Prompts the user for permission before installing each package.
 
 ### configure_user_ssh
