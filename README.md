@@ -1,14 +1,8 @@
 # Proaxiom VMS Configuration Script
 
-This script configures a Proaxiom VMS environment by performing the following actions:
-- Clearing the screen
-- Checking if the script is run as root
-- Displaying the Proaxiom VMS logo
-- Detecting the operating system
-- Checking for the package manager
-- Checking and installing necessary packages
-- Creating a user and configuring SSH
-- Configuring sudoers
+This script prepares a Linux host for Proaxiom vulnerability management scanners, including runZero, Greenbone OpenVAS and Tenable Nessus.
+
+The script creates a proaxiom-vms user account that is authenticated via private key authentication, and adds this user account to the sudoers group.
 
 ## Prerequisites
 
