@@ -21,7 +21,7 @@ Ensure that you have the following:
 
 Run the script with root privileges:
 
-'''bash
+```bash
 sudo ./script.sh```
 
 ## Functions
